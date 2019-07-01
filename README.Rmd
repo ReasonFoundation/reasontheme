@@ -35,9 +35,12 @@ If Calibri isn't imported and registered, install Calibri and then submit `reaso
 
 Always load `library(reasontheme)` after `library(ggplot2)` or `library(tidyverse)`.
 
-```{r example, message=FALSE}
+```{r packages, include = FALSE}
 library(tidyverse)
 library(reasontheme)
+```
+
+```{r example, message=FALSE}
 set_reason_theme(style = "slide")
 ggplot(data = mtcars, mapping = aes(factor(cyl))) +
   geom_bar() + 
@@ -56,8 +59,7 @@ ggplot(data = mtcars, mapping = aes(x = wt, y = mpg)) +
                      limits = c(0, 40),
                      breaks = 0:8 * 5) +
   labs(x = "Weight (thousands of pounds)",
-       y = "City MPG")# +
-#  scatter_grid()
+       y = "City MPG")
 ```
 
 ```{r scatter-plot-2}
@@ -72,8 +74,7 @@ mtcars %>%
                      limits = c(0, 40),
                      breaks = 0:8 * 5) +
   labs(x = "Weight (thousands of pounds)",
-       y = "City MPG") #+
-#  scatter_grid()
+       y = "City MPG")
 ```
 
 ```{r line-plot}

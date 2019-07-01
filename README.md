@@ -28,14 +28,6 @@ Always load `library(reasontheme)` after `library(ggplot2)` or
 `library(tidyverse)`.
 
 ``` r
-library(tidyverse)
-#> Warning: package 'tibble' was built under R version 3.5.2
-#> Warning: package 'tidyr' was built under R version 3.5.2
-#> Warning: package 'purrr' was built under R version 3.5.2
-#> Warning: package 'dplyr' was built under R version 3.5.2
-#> Warning: package 'stringr' was built under R version 3.5.2
-#> Warning: package 'forcats' was built under R version 3.5.2
-library(reasontheme)
 set_reason_theme(style = "slide")
 #> Warning: New theme missing the following elements: axis.ticks.length.x,
 #> axis.ticks.length.x.top, axis.ticks.length.x.bottom, axis.ticks.length.y,
@@ -59,14 +51,10 @@ ggplot(data = mtcars, mapping = aes(x = wt, y = mpg)) +
                      limits = c(0, 40),
                      breaks = 0:8 * 5) +
   labs(x = "Weight (thousands of pounds)",
-       y = "City MPG")# +
+       y = "City MPG")
 ```
 
 <img src="man/figures/README-scatter-plot-1-1.png" width="100%" />
-
-``` r
-#  scatter_grid()
-```
 
 ``` r
 mtcars %>%
@@ -80,14 +68,10 @@ mtcars %>%
                      limits = c(0, 40),
                      breaks = 0:8 * 5) +
   labs(x = "Weight (thousands of pounds)",
-       y = "City MPG") #+
+       y = "City MPG")
 ```
 
 <img src="man/figures/README-scatter-plot-2-1.png" width="100%" />
-
-``` r
-#  scatter_grid()
-```
 
 ``` r
 library(gapminder)
