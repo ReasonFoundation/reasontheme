@@ -146,11 +146,11 @@ theme_reason_slide <- function(base_size = 14.0, base_family = "Calibri",
 
     panel.grid = NULL,
     panel.grid.major = ggplot2::element_blank(),
-    panel.grid.major.x = ggplot2::element_blank(),
-    panel.grid.major.y = ggplot2::element_blank(),
+  #  panel.grid.major.x = ggplot2::element_blank(),
+  #  panel.grid.major.y = ggplot2::element_blank(),
     panel.grid.minor = ggplot2::element_blank(),
-    panel.grid.minor.x = ggplot2::element_blank(),
-    panel.grid.minor.y = ggplot2::element_blank(),
+  #  panel.grid.minor.x = ggplot2::element_blank(),
+  #  panel.grid.minor.y = ggplot2::element_blank(),
 
     # strip attributes (Faceting)
 
