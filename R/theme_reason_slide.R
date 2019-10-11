@@ -81,7 +81,7 @@ theme_reason_slide <- function(base_size = 14.0, base_family = "Calibri",
     axis.title.y = ggplot2::element_text(angle = 90L,
                                          margin = ggplot2::margin(r = 4L)),
     axis.title.x.top = NULL,
-    axis.title.y.right = ggplot2::element_text(angle = -90L,
+    axis.title.y.right = ggplot2::element_text(angle = 270L,
                                                margin = ggplot2::margin(l = 4L)),
 
     axis.ticks = ggplot2::element_line(),
