@@ -44,8 +44,8 @@ set_reason_theme <- function(style = "slide") {
 
   ggplot2::update_geom_defaults("bar", list(fill = "#FF6633"))
   ggplot2::update_geom_defaults("col", list(fill = "#FF6633"))
-  ggplot2::update_geom_defaults("point", list(colour = "#FF6633"))
-  ggplot2::update_geom_defaults("line", list(colour = "#FF6633"))
+  ggplot2::update_geom_defaults("point", list(colour = "#FFFF00"))
+  ggplot2::update_geom_defaults("line", list(colour = "#FFFF00"))
   ggplot2::update_geom_defaults("step", list(colour = "#FF6633"))
   ggplot2::update_geom_defaults("path", list(colour = "#FF6633"))
   ggplot2::update_geom_defaults("boxplot", list(fill = "#FF6633"))
